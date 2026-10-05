@@ -1,6 +1,6 @@
 # Privacy Policy · 개인정보 처리방침
 
-_Last updated / 최종 수정: 2026-10-04_
+_Last updated / 최종 수정: 2026-10-05_
 
 Lumina is an independent third-party app. It has no user accounts, no analytics, no advertising, and no tracking SDKs. We (the developer) do not collect or receive your personal data on any server we operate.
 
@@ -37,14 +37,15 @@ Location is used only while you use the app, to show your position, follow your 
 | **Apple** (MapKit, Core Location, CLGeocoder) | Location, route | Map tiles, directions, address/road lookup |
 | **OpenStreetMap Overpass API** (`overpass-api.de`, `overpass.kumi.systems`) | Your current coordinate (bounding-box query) | Look up the speed limit of nearby roads |
 | **Open-Meteo** (`api.open-meteo.com`) | Your current coordinate | Weather |
+| **Apple iTunes Search API** (`itunes.apple.com`) | Title and artist of the track playing | Look up the album artwork |
 | **Media artwork URL** provided by the car | — | Album/station artwork |
 
-These requests contain a coordinate, not your name or account. The operators may log request data (e.g. IP address) under their own privacy policies:
-- Apple — https://www.apple.com/legal/privacy/
+These requests contain a coordinate or the title and artist of the track playing, never your name or account. The operators may log request data (e.g. IP address) under their own privacy policies:
+- Apple (incl. iTunes Search) — https://www.apple.com/legal/privacy/
 - OpenStreetMap Foundation — https://osmfoundation.org/wiki/Privacy_Policy
 - Open-Meteo — https://open-meteo.com/en/terms
 
-**제3자 서비스:** Apple(지도·경로·주소), OpenStreetMap Overpass API(현재 좌표 주변 도로의 제한속도 조회), Open-Meteo(날씨). 전송되는 것은 좌표이며 이름·계정은 포함되지 않습니다. 각 서비스 운영자는 자체 정책에 따라 접속 기록(예: IP)을 남길 수 있습니다.
+**제3자 서비스:** Apple(지도·경로·주소), OpenStreetMap Overpass API(현재 좌표 주변 도로의 제한속도 조회), Open-Meteo(날씨), Apple iTunes Search API(재생 중인 곡의 제목·아티스트 → 앨범아트 조회). 전송되는 것은 좌표 또는 곡 제목·아티스트이며 이름·계정은 포함되지 않습니다. 각 서비스 운영자는 자체 정책에 따라 접속 기록(예: IP)을 남길 수 있습니다.
 
 ## 5. Permissions
 
