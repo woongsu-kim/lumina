@@ -6,7 +6,7 @@ Lumina is an independent app. It uses the following third-party data and marks. 
 **Apple Maps** (MapKit, Core Location, CLGeocoder) — © Apple Inc. Used under Apple's developer terms.
 
 ## Speed-limit data
-**© OpenStreetMap contributors** — map data licensed under the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/), queried via the **Overpass API** (`overpass-api.de`, `overpass.kumi.systems`). See https://www.openstreetmap.org/copyright. The app displays the speed limit of the road you are on using this data; it is provided "as is" and may be incomplete or out of date.
+**© OpenStreetMap contributors** — map data licensed under the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/). The speed-limit data is an **offline extract** of OpenStreetMap (downloaded from [Geofabrik](https://download.geofabrik.de/) and filtered with `osmium`), shipped with the app per region and refreshed with app updates; as a derivative database it is offered under the same licence. See https://www.openstreetmap.org/copyright. The app displays the speed limit of the road you are on using this data; it is provided "as is" and may be incomplete or out of date.
 
 ## Weather
 **Open-Meteo** (https://open-meteo.com) — data licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Displayed in the app as "Weather data by Open-Meteo".
